@@ -15,7 +15,10 @@ At the core of this application is the [`MediaRecorder`] API.
 [`MediaRecorder`]: https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder
 
 The video gets built up using a `canvas` element. The `MediaRecorder` instance
-uses the `canvas` element to generate frames of the video.
+uses the `canvas` element to generate frames of the video. I have prototyped
+this in [`html-video`].
+
+[`html-video`]: https://github.com/TomasHubelbauer/html-video
 
 ## To-Do
 
